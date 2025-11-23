@@ -46,7 +46,7 @@ ansible-playbook -i hosts.ini aws-ec2-configure.yml
 ```
 
 ### 5. 🌐 Access the application
-Navigate to 'http://<ec2-public-ip-address>' in your browser
+Navigate to `http://<ec2-public-ip-address>` in your browser
 
 ### 📁 Project Structure
 ```
