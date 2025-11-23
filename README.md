@@ -80,7 +80,7 @@ Terraform-Ansible-Stack/
 - Add monitoring and logging using Prometheus
 - Set up CI/CD Pipeline for complete automation
 
-## Architecture Diagram 👉 ![Architecture(images/terraform-ansible.drawio.png)]
+## Architecture Diagram 👉 ![Architecture](images/terraform-ansible.drawio.png)
 ### If having problem to understand the diagram then run the Infra-with-Ansible/terraform-ansible-docker-stack/AWS-Terraform-Ansible-Architecture-Diagram/diagram.html code in your favourite code editor.
 ## License
 MIT
