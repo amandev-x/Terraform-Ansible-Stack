@@ -86,5 +86,5 @@ Terraform-Ansible-Stack/
 MIT
 
 ## Author
-Aman Dabral - ![Github (https://github.com/amandev-x)]
+Aman Dabral - ![Github](https://github.com/amandev-x)
 
