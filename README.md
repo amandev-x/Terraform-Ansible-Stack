@@ -9,12 +9,12 @@ This is a simple project where the AWS infrastructure is build with Terraform an
 - **S3 backend** for Terraform state management.
 - ** NGINX Container** serving custom static HTML,CSS,JavaScript content.
 
-## 🛠️ Technologies Used**
+## 🛠️ Technologies Used
 - Terraform (For creating Infrastructure)
 - Ansible ( For configuring the infrastructure)
 - AWS (VPC,EC2,S3,Security Groups)
 
-## 📝 Prerequisites##
+## 📝 Prerequisites
 - AWS Account
 - AWS CLI configured
 - Terraform installed
