@@ -81,6 +81,7 @@ Terraform-Ansible-Stack/
 - Set up CI/CD Pipeline for complete automation
 
 ## Architecture Diagram 👉 ![Architecture(images/terraform-ansible.drawio.png)]
+## If having problem to understand the diagram then go to 
 ## License
 MIT
 
