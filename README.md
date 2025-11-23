@@ -80,6 +80,7 @@ Terraform-Ansible-Stack/
 - Add monitoring and logging using Prometheus
 - Set up CI/CD Pipeline for complete automation
 
+## Architecture Diagram 👉 ![Architecture(images/terraform-ansible.drawio.png)]
 ## License
 MIT
 
