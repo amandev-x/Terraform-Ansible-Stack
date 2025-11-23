@@ -1,0 +1,13 @@
+Main_VPC                      = "Main-VPC"
+Main_VPC-cidr_block           = "10.0.0.0/16"
+public_subnet                 = "main-public-subnet"
+public_subnet_cidr_block      = "10.0.0.0/24"
+public_RTB                    = "public-RTB"
+main_IGW                      = "Main-IGW"
+ec2_instance                  = "ubuntu-ec2-instance"
+http_inbound                  = "http-inbound"
+https_inbound                 = "https-inbound"
+http_outbound                 = "http_outbound"
+https_outbound                = "https_outbound"
+dns_outbound                  = "dns_outbound"
+secure_ip_address_ssh_inbound = "" # Your Public IP Address of EC2

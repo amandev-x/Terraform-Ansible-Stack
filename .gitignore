@@ -1,0 +1,24 @@
+.env
+# Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+# *.tfvars
+.terraform.lock.hcl
+
+# Ansible files
+*.retry
+
+# SSH keys
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
