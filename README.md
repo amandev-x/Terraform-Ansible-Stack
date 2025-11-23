@@ -85,8 +85,8 @@ Terraform-Ansible-Stack/
 
 ## License
 MIT
-## ![Diagram](terraform-ansible-docker-stack/AWS-Terraform-Ansible-Architecture-Diagram/part1.png)
-## ![Diagram](terraform-ansible-docker-stack/AWS-Terraform-Ansible-Architecture-Diagram/part2.png)
+## ![Diagram](images/part1.png)
+## ![Diagram](images/part2.png)
 
 ## Author
 Aman Dabral
