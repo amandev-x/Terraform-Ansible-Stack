@@ -7,7 +7,7 @@ This is a simple project where the AWS infrastructure is build with Terraform an
 - **EC2 Instance** running Docker.
 - **Security Group** for traffic control.
 - **S3 backend** for Terraform state management.
-- ** NGINX Container** serving custom static HTML,CSS,JavaScript content.
+- **NGINX Container** serving custom static HTML,CSS,JavaScript content.
 
 ## 🛠️ Technologies Used
 - Terraform (For creating Infrastructure)
@@ -24,10 +24,10 @@ This is a simple project where the AWS infrastructure is build with Terraform an
 ## 🚀 Setup & Deployment
 ### 1. ⿻ Clone the repository
 ``` bash
-git clone
+git clone https://github.com/amandev-x/Terraform-Ansible-Stack.git
 ```
 
-### 2. 🚨 Configure changes in the terraform files and ansible files. Make sure you set your ip address,ssh key-pair location in the terraform files. Please see the provider.tf, terraform.tfvars for making changes so you wont face nay problem. Also add your ec2 instance ip address in the Ansible hosts.ini file for successfull ssh conenction between Ansible and EC2 instance.
+### 2. 🚨 Configure changes in the terraform files and ansible files. Make sure you set your ip address,ssh key-pair location in the terraform files. Please see the provider.tf, terraform.tfvars for making changes so you wont face any problem. Also add your ec2 instance ip address in the Ansible hosts.ini file for successfull ssh conenction between Ansible and EC2 instance.
 
 ### 3. ⚙️ Configure Terraform
 ``` bash
