@@ -1,6 +1,5 @@
 # Terraform-Ansible-Stack
-A Terraform and Ansible stack where the aws infrastructure is build using Terraform and Ansible is used for configure the infrastructure.
-This is a simple project where the AWS infrastructure is build with Terraform and is configured with Ansible Automation tool to deploy a Dockerized NGINX webserver.
+A Terraform + Ansible stack that provisions and configures AWS infrastructure: Terraform defines and creates the AWS resources (VPC, subnets, EC2, S3, DynamoDB, etc.), and Ansible automates configuration and deployment on the provisioned instances. This simple project uses Terraform to build the infrastructure and Ansible Automation to deploy a Dockerized NGINX web server on the servers.
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -72,18 +71,20 @@ Terraform-Ansible-Stack/
 ```
 
 ## ✅ What i learned
-- Infrastructure As Code with Terraform
-- Configuration Management with Ansible
-- AWS Networking and Security
-- Docker Containerization
-- Remote State Management with S3
+- Infrastructure as Code with Terraform
+- Configuration management with Ansible
+- AWS networking and security (VPCs, subnets, security groups)
+- Docker containerization (building and running Dockerized services)
+- Remote state management with S3 and state locking (DynamoDB)
 
 ## 🔮 Future Improvements
-- Add multiple EC2 instances
-- Develop this into a 3 tier architecture app
-- Implement auto scaling
-- Add monitoring and logging using Prometheus
-- Set up CI/CD Pipeline for complete automation
+- Add multiple EC2 instances for redundancy and load distribution
+
+- Evolve into a 3-tier application architecture (web, app, database)
+
+- Implement autoscaling for demand-based capacity
+- Add monitoring and logging with Prometheus and a log aggregator (e.g., Loki/ELK)
+- Build a CI/CD pipeline to automate provisioning, configuration, and deployment
 
 ## Architecture Diagram ![Architecture](./images/diagram.png)
 
