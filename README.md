@@ -31,7 +31,11 @@ A Terraform + Ansible stack that provisions and configures AWS infrastructure: T
 git clone https://github.com/amandev-x/Terraform-Ansible-Stack.git
 ```
 
-### 2. 🚨 Configure changes in the terraform files and ansible files. Make sure you set your ip address,ssh key-pair location in the terraform files. Please see the provider.tf, terraform.tfvars for making changes so you wont face any problem. Also add your ec2 instance ip address in the Ansible hosts.ini file for successfull ssh conenction between Ansible and EC2 instance.
+### 2. ⚠️ **Configuration Required Before Use** Before running this project, update the following:
+
+- **Terraform —** Set your IP address and SSH key pair path in ` provider.tf ` and ` terraform.tfvars `
+
+- **Ansible —** Add your EC2 instance IP address to ` hosts.ini ` to enable SSH connectivity
 
 ### 3. ⚙️ Configure Terraform
 ``` bash
