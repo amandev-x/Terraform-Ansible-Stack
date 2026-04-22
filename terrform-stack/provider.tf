@@ -8,9 +8,11 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "" # Your S3 bucket name
+    bucket = "terraform-ansible-stack-backend"
     key    = "terraform/state.tfstate"
     region = "ap-south-1"
+    encrypt      = true
+    use_lockfile = true
   }
 }
 
